@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
    <head>
-      <title>Portal for QA</title>
+      <title>Командная строка Windows</title>
       <link rel="stylesheet" type="text/css" href="../css/style.css">
       <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
       <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
@@ -13,31 +13,43 @@
       <!--Card-->
       <div class="card animated fadeIn">
          <p class="subtitle">Командная строка Windows</p>
-         <h3 id="rt-0"> Управление файлами и папками</h3>
+         
+         <h3 id="rt-0">Управление файлами и папками</h3>
          <ul>
-            <li>COPY – Копирование файлов в другое место</li>
-            <li>DIR – Изменить каталог</li>
-            <li>CD – Отображение файлов и папок в текущем каталоге</li>
-            <li>MAKEDIR – Создать папку</li>
-            <li>MOVE – Переместить файлы из одной папки в другую</li>
+            <li><strong>COPY</strong> – Копирование файлов в другое место</li>
+            <!-- Описания CD и DIR исправлены и возвращены на свои места -->
+            <li><strong>DIR</strong> – Отображение файлов и папок в текущем каталоге</li>
+            <li><strong>CD</strong> – Изменить каталог</li>
+            <!-- MAKEDIR заменена на стандартную команду MKDIR -->
+            <li><strong>MKDIR</strong> – Создать папку</li>
+            <li><strong>MOVE</strong> – Переместить файлы из одной папки в другую</li>
          </ul>
+         
          <h3 id="rt-1">Приложения и процессы</h3>
          <ul>
-            <li>TASKLIST – Список выполняемых задач</li>
-            <li>TASKKILL – Остановить или прекратить выполнение задачи (для остановки задачи используется PID, который можно узнать из TASKLIST).</li>
+            <li><strong>TASKLIST</strong> – Список выполняемых задач</li>
+            <li><strong>TASKKILL</strong> – Остановить или прекратить выполнение задачи (для остановки задачи используется PID, который можно узнать из TASKLIST).</li>
          </ul>
-         <h3 id="rt-3">Системная информация</h3>
+         
+         <!-- Исправлен id заголовка для соблюдения последовательности -->
+         <h3 id="rt-2">Системная информация</h3>
          <ul>
-            <li>DATE – Выводит или устанавливает системное время</li>
-            <li>TIME – Выводит или устанавливает текущую дату</li>
-            <li>HOSTNAME – Отображает имя компьютера</li>
-            <li>SYSTEMINFO – Отображает информацию о конфигурации компьютера</li>
-            <li>VER – Позволяет просмотреть версию Windows</li>
+            <!-- Описания DATE и TIME исправлены -->
+            <li><strong>DATE</strong> – Выводит или устанавливает текущую дату</li>
+            <li><strong>TIME</strong> – Выводит или устанавливает системное время</li>
+            <li><strong>HOSTNAME</strong> – Отображает имя компьютера</li>
+            <li><strong>SYSTEMINFO</strong> – Отображает информацию о конфигурации компьютера</li>
+            <li><strong>VER</strong> – Позволяет просмотреть версию Windows</li>
          </ul>
+
+         <!-- Добавлена кнопка возврата на главную для единообразия интерфейса -->
+         <p class="location">
+            <a href="../index.html">Вернуться на главную</a>
+         </p>
       </div>
       <!--footer-->
       <footer class="animated fadeIn">
-         &copy; 202 4. SkyPro
+         &copy; 2024. SkyPro
       </footer>
    </body>
 </html>

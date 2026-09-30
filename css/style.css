@@ -6,20 +6,40 @@ body {
 	width: 100%;
 	margin: 0px;
 	background-image: url(../img/bg.jpg);
-	background-repeat: repeat-y no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 
+/* Стили для списков и заголовков на внутренних страницах */
+.card h3 {
+	color: #2c3e50; /* Глубокий темно-серый цвет для заголовков */
+	padding: 0 7%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.card ul {
+	padding: 0 7% 0 12%;
+	margin-bottom: 20px;
+}
+
+.card ul li {
+	color: #4f5f6f; /* Контрастный и приятный для чтения цвет списков команд */
+	font-size: 1.05em;
+	line-height: 1.5;
+	margin-bottom: 8px;
+}
+
 .icons>a {
 	text-decoration: none;
-	color: darkgray;
+	color: #2c3e50; /* Сделали иконки темными и заметными */
 }
 
 .location>a {
 	text-decoration: none;
-	color: white;
+	color: white; /* Оставляем белым, так как фон кнопки фиолетовый */
 }
 
 .location:hover {
@@ -53,7 +73,7 @@ body {
 	.name {
 		text-align: center;
 		font-size: 2.8em;
-		color: gainsboro;
+		color: #1a252f; /* Заменили блеклый gainsboro на четкий темный цвет */
 		margin-top: 15%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -61,20 +81,20 @@ body {
 	hr {
 		width: 93%;
 		height: 2px;
-		background-color: gainsboro;
+		background-color: #e2e8f0; /* Сделали разделитель аккуратным серым */
 		border: 0px;
 	}
 	.subtitle {
 		text-align: center;
 		font-size: 1.5em;
-		color: darkgray;
+		color: #7f8c8d; /* Заменили темный darkgray на благородный графитовый */
 	}
 	.icons {
 		font-size: 18px;
 		text-align: center;
 		margin-right: 0px;
 		margin-left: 0px;
-		color: darkgray;
+		color: #2c3e50;
 		margin-bottom: 40px;
 	}
 	.location {
@@ -94,13 +114,14 @@ body {
 	body {
 		width: 100%;
 		margin: 0px;
-		background: url(../img/bg.jpg) fixed no;
+		background: url(../img/bg.jpg) no-repeat fixed;
+		background-size: cover;
 		overflow-x: hidden;
 	}
 	hr {
 		width: 93%;
 		height: 2px;
-		background-color: gainsboro;
+		background-color: #e2e8f0;
 		border: 0px;
 	}
 	.card {
@@ -127,7 +148,7 @@ body {
 		padding-left: 4px;
 		text-align: center;
 		font-size: 2.5em;
-		color: gainsboro;
+		color: #1a252f; /* Заменили gainsboro */
 		margin-top: 16%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -135,14 +156,14 @@ body {
 	.subtitle {
 		text-align: center;
 		font-size: 1.2em;
-		color: darkgray;
+		color: #7f8c8d; /* Заменили darkgray */
 	}
 	.icons {
 		font-size: 11px;
 		text-align: center;
 		margin-right: 0px;
 		margin-left: 0px;
-		color: darkgray;
+		color: #2c3e50;
 		margin-bottom: 40px;
 	}
 	.location {
@@ -162,13 +183,14 @@ body {
 	body {
 		width: 100%;
 		margin: 0px;
-		background: url(../img/bg.jpg) fixed no;
+		background: url(../img/bg.jpg) no-repeat fixed;
+		background-size: cover;
 		overflow-x: hidden;
 	}
 	hr {
 		width: 93%;
 		height: 2px;
-		background-color: gainsboro;
+		background-color: #e2e8f0;
 		border: 0px;
 	}
 	.card {
@@ -195,7 +217,7 @@ body {
 		padding-left: 4px;
 		text-align: center;
 		font-size: 2.8em;
-		color: gainsboro;
+		color: #1a252f; /* Заменили gainsboro */
 		margin-top: 16%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -203,14 +225,14 @@ body {
 	.subtitle {
 		text-align: center;
 		font-size: 1.9em;
-		color: darkgray;
+		color: #7f8c8d; /* Заменили darkgray */
 	}
 	.icons {
 		font-size: 18px;
 		text-align: center;
 		margin-right: 0px;
 		margin-left: 0px;
-		color: darkgray;
+		color: #2c3e50;
 		margin-bottom: 40px;
 	}
 	.location {
@@ -230,13 +252,14 @@ body {
 	body {
 		width: 100%;
 		margin: 0px;
-		background: url(../img/bg.jpg) fixed no;
+		background: url(../img/bg.jpg) no-repeat fixed;
+		background-size: cover;
 		overflow-x: hidden;
 	}
 	hr {
 		width: 93%;
 		height: 2px;
-		background-color: gainsboro;
+		background-color: #e2e8f0;
 		border: 0px;
 	}
 	.card {
@@ -261,7 +284,7 @@ body {
 	.name {
 		text-align: center;
 		font-size: 2.5em;
-		color: gainsboro;
+		color: #1a252f; /* Заменили gainsboro */
 		margin-top: 16%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -269,14 +292,14 @@ body {
 	.subtitle {
 		text-align: center;
 		font-size: 2em;
-		color: darkgray;
+		color: #7f8c8d; /* Заменили darkgray */
 	}
 	.icons {
 		font-size: 15px;
 		text-align: center;
 		margin-right: 0px;
 		margin-left: 0px;
-		color: darkgray;
+		color: #2c3e50;
 		margin-bottom: 40px;
 	}
 	.location {
@@ -297,5 +320,5 @@ body {
 footer {
 	text-align: center;
 	color: white;
-	font-size: 1.2em
+	font-size: 1.2em;
 }
